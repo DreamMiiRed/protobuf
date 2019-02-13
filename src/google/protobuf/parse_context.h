@@ -225,6 +225,7 @@ class PROTOBUF_EXPORT ParseContext {
     // the buffer).
     enum { kNoDelta = 1 };
     std::uintptr_t aliasing = 0;
+    //uintptr_t aliasing = 0;
   };
 
   ExtraParseData& extra_parse_data() { return extra_parse_data_; }
